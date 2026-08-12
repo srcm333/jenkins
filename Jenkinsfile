@@ -9,7 +9,7 @@ pipeline {
     }
     options { 
         disableConcurrentBuilds()
-        timeout(time: 1, unit: 'SECOND')
+        timeout(time: 15, unit: 'MINUTES')
     }
     //Build
     stages {
