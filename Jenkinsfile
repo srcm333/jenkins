@@ -26,7 +26,7 @@ pipeline {
                     sh """
                         echo "Building"
                         echo "Course is: ${COURSE}"
-                        ${params.PERSON}
+                        echo "Hello ${params.PERSON}"
                         echo "Biography: ${params.BIOGRAPHY}"
                         echo "Toggle: ${params.TOGGLE}"
                         echo "Choice: ${params.CHOICE}"
